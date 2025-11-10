@@ -1,18 +1,23 @@
+import Image from 'next/image'
 
 export default function Hero() {
    return (
-      <div className="grid grid-cols-12 gap-3 mt-3">
+      <div className="mx-auto grid grid-cols-12 gap-3 mt-3 p-8 shadow-lg items-center">
          <div className="col-span-12 md:col-span-6 p-4 text-wrap flex flex-col items-center justify-center">
-            <p className="text-lg font-bold">Power Ranger Merah</p>
-            <p className="text-lg">Power Ranger Merah adalah pemimpin utama dalam setiap tim Power Rangers. Ia biasanya digambarkan sebagai sosok yang berani, tegas, dan penuh semangat juang. Sebagai pemimpin, Power Ranger Merah bertanggung jawab memimpin rekan-rekannya dalam melawan kejahatan dan menjaga kedamaian bumi. Kostumnya identik dengan warna merah menyala dan sering kali ia memiliki Zord terkuat atau paling ikonik dalam timnya. Tokoh ini melambangkan keberanian, kepemimpinan, dan semangat pantang menyerah.</p>
+            <p className="text-lg font-bold">MUHAMMAD HIDAYAT DARMAWAN</p>
+            <p className=" mt-5">
+               I’m a frontend developer who enjoys turning ideas into beautiful and functional digital experiences. I’m passionate about learning new things, improving my skills, and bringing creativity into every project I work on.
+            </p>
          </div>
 
          <div className="col-span-12 md:col-span-6 flex justify-center">
-            <div className="bg-green-200 w-64 h-64 rounded-full overflow-hidden flex items-center justify-center">
-               <img
-                  src="/images/profil.png"
+            <div className="w-64 h-64 rounded-full overflow-hidden flex items-center justify-center">
+               <Image
+                  src="/images/profil.jpeg"
                   alt="Logo"
-                  className="w-full h-full object-cover"
+                  width={256}
+                  height={256}
+                  className="object-cover"
                />
             </div>
          </div>
