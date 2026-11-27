@@ -4,23 +4,23 @@ import Image from 'next/image';
 const projects = [
    {
       title: "PERAK KONSEL",
-      description: "Aplikasi monitoring pengadaan daerah yang terintegrasi dengan sistem LKPP (SIRUP dan LPSE).",
+      description: "The application provides online public services, including job seeker registration (AK1 Card), document management, and other administrative services. It aims to simplify public access to government services through a centralized and user-friendly web portal, supporting efficiency, transparency, and digital transformation within the local government.",
       image: "/images/project/perak.png",
-      tech: ["Vue.js", "Node.js", "MySQL"],
+      tech: ["Vue.js", "Node.js", "MySQL", "Quasar"],
       link: "https://adminperak.konaweselatankab.go.id/",
    },
    {
       title: "SIKOLA PINDARA",
-      description: "Aplikasi inventarisasi aset daerah dengan fitur pelaporan, pemetaan, dan visualisasi data aset.",
+      description: "is an integrated education management system developed by the Department of Education and Culture of Konawe Selatan Regency, Indonesia. The platform aims to digitize and streamline local education services by managing data for schools, teachers, and education staff. It supports transparency, efficiency, and accountability in regional education governance through a centralized digital system.",
       image: "/images/project/sikola-pindara.png",
-      tech: ["React", "Redux", "Express"],
+      tech: ["Vue.js", "Node.js", "MySQL", "Quasar"],
       link: "https://sikola-pindara.konaweselatankab.go.id/",
    },
    {
       title: "GaLi Integral",
-      description: "Aplikasi pembelajaran interaktif berbasis web untuk membantu siswa memahami konsep integral.",
+      description: "GaLi INTEGRAL is a data integration platform developed to unify information from multiple government applications in Konawe Selatan Regency. Built with Vue.js (frontend), Node.js (backend), and MySQL (database), it enables efficient synchronization, processing, and visualization of inter-system data. The application supports better decision-making, transparency, and interoperability across various regional information systems.",
       image: "/images/project/gali-integral.png",
-      tech: ["Vue.js", "TailwindCSS"],
+      tech: ["Vue.js", "Node.js", "MySQL", "Quasar"],
       link: "https://gali-integral.konaweselatankab.go.id/",
    },
 ];
